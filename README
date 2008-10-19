@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2409
+
+With this ftplugin you can type "create table foo (foo_id int);" and get "CREATE TABLE foo (foo_id INT);".  It is based on both sql.vim and the output from postgresql's \dT command while in psql.  That makes it a tad bit tailored to postgresql, but it will work with any SQL compliant dbms. 
+
+I probably won't upload every update I make immediately so the most current version may be found on github.
+http://github.com/xenoterracide/sql_iabbr/tree/master
+git://github.com/xenoterracide/sql_iabbr.git
+
+earlier versions of this plugin are here http://www.vim.org/scripts/script.php?script_id=305 I am unable to contact Michael Brailsford so have forked the script with my changes. Changes have currently amounted to adding reserved words that weren't present.
